@@ -15,24 +15,18 @@
 
 % {E-mail}{mobilephone}{homepage}
 % be careful of _ in emaill address
-\contactInfo{15301959284}{likai2023@126.com}{嵌入式工程师}{}
+\contactInfo{tel: 15301959284}{mail: likai2023@126.com}{嵌入式软件工程师}{}
 % {E-mail}{mobilephone}
 % keep the last empty braces!
 %\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{} 
-\section{个人总结}
-本人在校期间成绩优良，动手能力突出，善于系统思考与工程实践。对嵌入式系统开发、底层通信协议、上位机软件设计具有浓厚兴趣，注重技术细节与实际效果，具备较强的问题分析与解决能力。工作态度认真负责，自我驱动力强，乐于挑战新技术，追求高质量的工程落地与持续优化。
 
 % \section{\faGraduationCap\ 教育背景}
 \section{教育背景}
 % 主修学位（按时间倒序）  
 \datedsubsection{\textbf{上海大学}, 控制工程, \textit{在读硕士研究生}}{2023.9 -- 至今}  
-\ \textbf{研究方向}: 嵌入式系统开发、工业控制算法  
-\ \textbf{核心课程}: 嵌入式系统设计、自动控制原理、现代传感器技术、机器人控制  
 % 若有奖学金、竞赛奖项等可补充  
 
 \datedsubsection{\textbf{上海理工大学}, 机械设计及其自动化, \textit{工学学士}}{2019.9 -- 2023.6}  
-\ \textbf{排名}: 前15\% 
-\ \textbf{相关课程}: C语言程序设计、单片机原理与应用、数字电路设计、机电一体化系统  
 % 补充与嵌入式相关的课程或项目  
 
 % \section{\faCogs\ IT 技能}
@@ -69,18 +63,8 @@
 \datedsubsection{\textbf{无人机智能巡检系统} | Android地面站软件与边缘计算协同}{2024.9 -- 至今}  
 \begin{itemize}  
 	\item \textbf{技术栈}: Android Studio (Kotlin/Java) + MAVLink v2.0 + FFmpeg + Mapbox + STM32F103/RK3588  
-	\item \textbf{Android地面站核心功能开发}:  
-	\begin{itemize}  
-		\item 基于\textbf{MAVLink v2.0}协议实现飞控通信，解析HM30数传模块的实时数据（姿态、GPS、电池状态），封装控制指令；  
-		\item 设计\textbf{多线程协同框架}：  
-		\begin{itemize}  
-			\item 主线程管理UI渲染及Mapbox路径显示；  
-			\item 独立线程处理MAVLink协议解析/封装，保障飞控数据实时性；  
-			\item 异步线程拉取RK3588的RTSP视频流，实现视频流与飞控数据的帧同步叠加显示；  
-		\end{itemize}  
-		\item 开发蓝牙透传模块，连接HM30数传硬件，支持平板直接控制无人机启停、巡航模式切换；  
-		\item 集成边缘计算结果：接收RK3588的YOLOv5s缺陷检测结果，在Mapbox地图动态标注异常位置，并触发无人机悬停指令.  
-	\end{itemize}  
+	\item \textbf{Android地面站核心功能开发}:  基于\textbf{MAVLink v2.0}协议实现飞控通信，解析HM30数传模块的实时数据（姿态、GPS、电池状态），封装控制指令。  多线程协同框架：主线程管理UI渲染及Mapbox路径显示；独立线程处理MAVLink协议解析/封装，保障飞控数据实时性； 异步线程拉取RK3588的RTSP视频流，实现视频流与飞控数据的帧同步叠加显示。开发蓝牙透传模块，连接HM30数传硬件，支持平板直接控制无人机启停、巡航模式切换。集成边缘计算结果：接收RK3588的YOLOv5s缺陷检测结果，在Mapbox地图动态标注异常位置，并触发无人机悬停指令。
+
 \end{itemize}  
 
 \section{实习经历}
@@ -102,8 +86,7 @@
 	
 	\item \textbf{交流桩环形充电算法设计}
 	\begin{itemize}
-		\item 基于图论理论，设计交流桩三环拓扑结构下的环形充电算法，优化充电模块功率分配，实现负载均衡。
-		\item 支持节点间充电路径动态调整，提升系统可靠性，目前处于功能测试阶段。
+		\item 基于图论理论，设计交流桩三环拓扑结构下的环形充电算法，优化充电模块功率分配，实现负载均衡。支持节点间充电路径动态调整，提升系统可靠性，目前处于功能测试阶段。
 	\end{itemize}
 \end{itemize}
 
